@@ -33,6 +33,19 @@ public class LatihanMandiriArrayList {
         }
         System.out.println("angka terbesar adalah : " + angka_terbesar);
         
+        // Latihan menambah nama
+        ArrayList<String> nama = new ArrayList<>();
+        nama.add("Reno");
+        nama.add("Azkiya");
+        nama.add("Azkaa");
+        nama.add("Haidir");
+        nama.add("Syahru");
+        nama.add("Reza");
         
+        for (String n : nama) {
+            if (n.startsWith("A")){
+                System.out.println(n);
+            }
+        }
     }
 }
