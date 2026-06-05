@@ -20,7 +20,7 @@ public class LatihanMandiriArray {
         int jumlah_genap = 0;
         for (int i : angka) {
             if (i % 2 == 0) {
-                System.out.println(i + " adalah genap");
+                System.out.println(i + " adalah angka genap");
                 jumlah_genap++;
             }
         }
